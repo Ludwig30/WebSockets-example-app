@@ -1,0 +1,329 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{447506AA-62E7-4113-A0AC-07BC474AF80A}|Solution Items{447506AA-62E7-4113-A0AC-07BC474AF80A}|C:\\Users\\ludwi\\source\\repos\\SignalRApp\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{447506AA-62E7-4113-A0AC-07BC474AF80A}|Solution Items{447506AA-62E7-4113-A0AC-07BC474AF80A}|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB76BC21-7ABE-4F14-B6EF-C368A92BFD6C}|BlazorAppSignalR\\BlazorAppSignalR.csproj|c:\\users\\ludwi\\source\\repos\\signalrapp\\blazorappsignalr\\components\\job.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB76BC21-7ABE-4F14-B6EF-C368A92BFD6C}|BlazorAppSignalR\\BlazorAppSignalR.csproj|solutionrelative:blazorappsignalr\\components\\job.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB76BC21-7ABE-4F14-B6EF-C368A92BFD6C}|BlazorAppSignalR\\BlazorAppSignalR.csproj|c:\\users\\ludwi\\source\\repos\\signalrapp\\blazorappsignalr\\services\\jobsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB76BC21-7ABE-4F14-B6EF-C368A92BFD6C}|BlazorAppSignalR\\BlazorAppSignalR.csproj|solutionrelative:blazorappsignalr\\services\\jobsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68555F33-1503-4EC8-81C6-E920CBE84518}|APISignalR\\APISignalR.csproj|c:\\users\\ludwi\\source\\repos\\signalrapp\\apisignalr\\hubs\\jobhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68555F33-1503-4EC8-81C6-E920CBE84518}|APISignalR\\APISignalR.csproj|solutionrelative:apisignalr\\hubs\\jobhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB76BC21-7ABE-4F14-B6EF-C368A92BFD6C}|BlazorAppSignalR\\BlazorAppSignalR.csproj|c:\\users\\ludwi\\source\\repos\\signalrapp\\blazorappsignalr\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB76BC21-7ABE-4F14-B6EF-C368A92BFD6C}|BlazorAppSignalR\\BlazorAppSignalR.csproj|solutionrelative:blazorappsignalr\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB76BC21-7ABE-4F14-B6EF-C368A92BFD6C}|BlazorAppSignalR\\BlazorAppSignalR.csproj|c:\\users\\ludwi\\source\\repos\\signalrapp\\blazorappsignalr\\components\\jobslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB76BC21-7ABE-4F14-B6EF-C368A92BFD6C}|BlazorAppSignalR\\BlazorAppSignalR.csproj|solutionrelative:blazorappsignalr\\components\\jobslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB76BC21-7ABE-4F14-B6EF-C368A92BFD6C}|BlazorAppSignalR\\BlazorAppSignalR.csproj|c:\\users\\ludwi\\source\\repos\\signalrapp\\blazorappsignalr\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB76BC21-7ABE-4F14-B6EF-C368A92BFD6C}|BlazorAppSignalR\\BlazorAppSignalR.csproj|solutionrelative:blazorappsignalr\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0711302-4B74-437A-B367-A6D7901A0711}|ClassLibraryJobs\\ClassLibraryJobs.csproj|c:\\users\\ludwi\\source\\repos\\signalrapp\\classlibraryjobs\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0711302-4B74-437A-B367-A6D7901A0711}|ClassLibraryJobs\\ClassLibraryJobs.csproj|solutionrelative:classlibraryjobs\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB76BC21-7ABE-4F14-B6EF-C368A92BFD6C}|BlazorAppSignalR\\BlazorAppSignalR.csproj|c:\\users\\ludwi\\source\\repos\\signalrapp\\blazorappsignalr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB76BC21-7ABE-4F14-B6EF-C368A92BFD6C}|BlazorAppSignalR\\BlazorAppSignalR.csproj|solutionrelative:blazorappsignalr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB76BC21-7ABE-4F14-B6EF-C368A92BFD6C}|BlazorAppSignalR\\BlazorAppSignalR.csproj|c:\\users\\ludwi\\source\\repos\\signalrapp\\blazorappsignalr\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB76BC21-7ABE-4F14-B6EF-C368A92BFD6C}|BlazorAppSignalR\\BlazorAppSignalR.csproj|solutionrelative:blazorappsignalr\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB76BC21-7ABE-4F14-B6EF-C368A92BFD6C}|BlazorAppSignalR\\BlazorAppSignalR.csproj|c:\\users\\ludwi\\source\\repos\\signalrapp\\blazorappsignalr\\blazorappsignalr.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DB76BC21-7ABE-4F14-B6EF-C368A92BFD6C}|BlazorAppSignalR\\BlazorAppSignalR.csproj|solutionrelative:blazorappsignalr\\blazorappsignalr.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68555F33-1503-4EC8-81C6-E920CBE84518}|APISignalR\\APISignalR.csproj|c:\\users\\ludwi\\source\\repos\\signalrapp\\apisignalr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68555F33-1503-4EC8-81C6-E920CBE84518}|APISignalR\\APISignalR.csproj|solutionrelative:apisignalr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68555F33-1503-4EC8-81C6-E920CBE84518}|APISignalR\\APISignalR.csproj|c:\\users\\ludwi\\source\\repos\\signalrapp\\apisignalr\\services\\jobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68555F33-1503-4EC8-81C6-E920CBE84518}|APISignalR\\APISignalR.csproj|solutionrelative:apisignalr\\services\\jobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68555F33-1503-4EC8-81C6-E920CBE84518}|APISignalR\\APISignalR.csproj|c:\\users\\ludwi\\source\\repos\\signalrapp\\apisignalr\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{68555F33-1503-4EC8-81C6-E920CBE84518}|APISignalR\\APISignalR.csproj|solutionrelative:apisignalr\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68555F33-1503-4EC8-81C6-E920CBE84518}|APISignalR\\APISignalR.csproj|c:\\users\\ludwi\\source\\repos\\signalrapp\\apisignalr\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{68555F33-1503-4EC8-81C6-E920CBE84518}|APISignalR\\APISignalR.csproj|solutionrelative:apisignalr\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68555F33-1503-4EC8-81C6-E920CBE84518}|APISignalR\\APISignalR.csproj|c:\\users\\ludwi\\source\\repos\\signalrapp\\apisignalr\\apisignalr.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{68555F33-1503-4EC8-81C6-E920CBE84518}|APISignalR\\APISignalR.csproj|solutionrelative:apisignalr\\apisignalr.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB76BC21-7ABE-4F14-B6EF-C368A92BFD6C}|BlazorAppSignalR\\BlazorAppSignalR.csproj|c:\\users\\ludwi\\source\\repos\\signalrapp\\blazorappsignalr\\wwwroot\\sample-data\\weather.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DB76BC21-7ABE-4F14-B6EF-C368A92BFD6C}|BlazorAppSignalR\\BlazorAppSignalR.csproj|solutionrelative:blazorappsignalr\\wwwroot\\sample-data\\weather.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB76BC21-7ABE-4F14-B6EF-C368A92BFD6C}|BlazorAppSignalR\\BlazorAppSignalR.csproj|c:\\users\\ludwi\\source\\repos\\signalrapp\\blazorappsignalr\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB76BC21-7ABE-4F14-B6EF-C368A92BFD6C}|BlazorAppSignalR\\BlazorAppSignalR.csproj|solutionrelative:blazorappsignalr\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB76BC21-7ABE-4F14-B6EF-C368A92BFD6C}|BlazorAppSignalR\\BlazorAppSignalR.csproj|c:\\users\\ludwi\\source\\repos\\signalrapp\\blazorappsignalr\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB76BC21-7ABE-4F14-B6EF-C368A92BFD6C}|BlazorAppSignalR\\BlazorAppSignalR.csproj|solutionrelative:blazorappsignalr\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-04-28T09:19:17.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\BlazorAppSignalR\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorAppSignalR\\Program.cs",
+              "ToolTip": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\BlazorAppSignalR\\Program.cs",
+              "RelativeToolTip": "BlazorAppSignalR\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T09:19:30.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\BlazorAppSignalR\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "BlazorAppSignalR\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\BlazorAppSignalR\\Pages\\Home.razor",
+              "RelativeToolTip": "BlazorAppSignalR\\Pages\\Home.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T09:15:47.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BlazorAppSignalR.csproj",
+              "DocumentMoniker": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\BlazorAppSignalR\\BlazorAppSignalR.csproj",
+              "RelativeDocumentMoniker": "BlazorAppSignalR\\BlazorAppSignalR.csproj",
+              "ToolTip": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\BlazorAppSignalR\\BlazorAppSignalR.csproj",
+              "RelativeToolTip": "BlazorAppSignalR\\BlazorAppSignalR.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-05T09:14:45.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\BlazorAppSignalR\\_Imports.razor",
+              "RelativeDocumentMoniker": "BlazorAppSignalR\\_Imports.razor",
+              "ToolTip": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\BlazorAppSignalR\\_Imports.razor",
+              "RelativeToolTip": "BlazorAppSignalR\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T09:17:55.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JobsList.razor",
+              "DocumentMoniker": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\BlazorAppSignalR\\Components\\JobsList.razor",
+              "RelativeDocumentMoniker": "BlazorAppSignalR\\Components\\JobsList.razor",
+              "ToolTip": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\BlazorAppSignalR\\Components\\JobsList.razor",
+              "RelativeToolTip": "BlazorAppSignalR\\Components\\JobsList.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABpAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T10:42:14.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JobHub.cs",
+              "DocumentMoniker": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\APISignalR\\Hubs\\JobHub.cs",
+              "RelativeDocumentMoniker": "APISignalR\\Hubs\\JobHub.cs",
+              "ToolTip": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\APISignalR\\Hubs\\JobHub.cs",
+              "RelativeToolTip": "APISignalR\\Hubs\\JobHub.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T13:06:33.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Job.cs",
+              "DocumentMoniker": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\ClassLibraryJobs\\Job.cs",
+              "RelativeDocumentMoniker": "ClassLibraryJobs\\Job.cs",
+              "ToolTip": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\ClassLibraryJobs\\Job.cs",
+              "RelativeToolTip": "ClassLibraryJobs\\Job.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T13:49:50.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JobsService.cs",
+              "DocumentMoniker": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\BlazorAppSignalR\\Services\\JobsService.cs",
+              "RelativeDocumentMoniker": "BlazorAppSignalR\\Services\\JobsService.cs",
+              "ToolTip": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\BlazorAppSignalR\\Services\\JobsService.cs",
+              "RelativeToolTip": "BlazorAppSignalR\\Services\\JobsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T11:33:50.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\BlazorAppSignalR\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "BlazorAppSignalR\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\BlazorAppSignalR\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "BlazorAppSignalR\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T09:19:58.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Job.razor",
+              "DocumentMoniker": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\BlazorAppSignalR\\Components\\Job.razor",
+              "RelativeDocumentMoniker": "BlazorAppSignalR\\Components\\Job.razor",
+              "ToolTip": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\BlazorAppSignalR\\Components\\Job.razor",
+              "RelativeToolTip": "BlazorAppSignalR\\Components\\Job.razor",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T10:29:36.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\APISignalR\\Program.cs",
+              "RelativeDocumentMoniker": "APISignalR\\Program.cs",
+              "ToolTip": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\APISignalR\\Program.cs",
+              "RelativeToolTip": "APISignalR\\Program.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T13:13:59.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "JobService.cs",
+              "DocumentMoniker": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\APISignalR\\Services\\JobService.cs",
+              "RelativeDocumentMoniker": "APISignalR\\Services\\JobService.cs",
+              "ToolTip": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\APISignalR\\Services\\JobService.cs",
+              "RelativeToolTip": "APISignalR\\Services\\JobService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T13:06:48.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\APISignalR\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "APISignalR\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\APISignalR\\Properties\\launchSettings.json",
+              "RelativeToolTip": "APISignalR\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-05T10:47:41.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\APISignalR\\appsettings.json",
+              "RelativeDocumentMoniker": "APISignalR\\appsettings.json",
+              "ToolTip": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\APISignalR\\appsettings.json",
+              "RelativeToolTip": "APISignalR\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-05T10:47:34.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "APISignalR.csproj",
+              "DocumentMoniker": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\APISignalR\\APISignalR.csproj",
+              "RelativeDocumentMoniker": "APISignalR\\APISignalR.csproj",
+              "ToolTip": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\APISignalR\\APISignalR.csproj",
+              "RelativeToolTip": "APISignalR\\APISignalR.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-05T10:38:39.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "weather.json",
+              "DocumentMoniker": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\BlazorAppSignalR\\wwwroot\\sample-data\\weather.json",
+              "RelativeDocumentMoniker": "BlazorAppSignalR\\wwwroot\\sample-data\\weather.json",
+              "ToolTip": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\BlazorAppSignalR\\wwwroot\\sample-data\\weather.json",
+              "RelativeToolTip": "BlazorAppSignalR\\wwwroot\\sample-data\\weather.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-05T10:28:27.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\BlazorAppSignalR\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "BlazorAppSignalR\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\BlazorAppSignalR\\wwwroot\\index.html",
+              "RelativeToolTip": "BlazorAppSignalR\\wwwroot\\index.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-04-05T09:18:15.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\BlazorAppSignalR\\App.razor",
+              "RelativeDocumentMoniker": "BlazorAppSignalR\\App.razor",
+              "ToolTip": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\BlazorAppSignalR\\App.razor",
+              "RelativeToolTip": "BlazorAppSignalR\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T09:15:51.685Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

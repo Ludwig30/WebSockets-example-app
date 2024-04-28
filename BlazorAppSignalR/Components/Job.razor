@@ -1,0 +1,55 @@
+﻿<MudCard Style="width:23%;background-color:aliceblue;margin-right:1rem;margin-bottom:1rem;">
+    <MudCardHeader Style="padding:1rem;">
+        <MudText style="overflow-wrap" Typo="Typo.h6">@JobName</MudText>
+    </MudCardHeader>
+    <MudCardContent Style="padding:1rem">
+        @switch (JobProp.GetStatus())
+        {
+            case (@JobStatus.Pending):
+                <MudText>Job is pending</MudText>
+                <MudButton OnClick="RunJob" Variant="Variant.Outlined">Run job</MudButton>
+                break;
+            case (JobStatus.Running):
+                <MudText>Job in progress</MudText>
+                <MudButton OnClick="CancelJob" Variant="Variant.Outlined" Color="Color.Error">Cancel job</MudButton>
+                break;
+            case (JobStatus.Cancelled):
+                <MudText>Job is cancelled</MudText>
+                <MudButton OnClick="RunJob" Variant="Variant.Outlined">Run job</MudButton>
+                break;
+            case (JobStatus.Complete):
+                <MudText>Job complete</MudText>
+                break;
+        }
+    </MudCardContent>
+</MudCard>
+
+@code {
+    [Parameter]
+    public string JobName { get; set; }
+    [Parameter]
+    public ClassLibraryJobs.Job JobProp { get; set; }
+    [CascadingParameter]
+    public HubConnection Connection { get; set; }
+
+    /*protected override async Task OnParametersSetAsync()
+    {
+        Console.WriteLine(JobProp.ToString());
+        if (JobProp.GetStatus() == JobStatus.Pending)
+        {
+            await Connection.InvokeAsync("StartJob", JobProp.GetId());
+        }
+    }*/
+
+    private async Task RunJob()
+    {
+        await Connection.InvokeAsync("StartJob", JobProp.GetId());
+    }
+
+    private async Task CancelJob()
+    {
+        await Connection.InvokeAsync("CancelJob", JobProp.GetId());
+        JobProp.SetStatus(JobStatus.Cancelled);
+        StateHasChanged();
+    }
+}

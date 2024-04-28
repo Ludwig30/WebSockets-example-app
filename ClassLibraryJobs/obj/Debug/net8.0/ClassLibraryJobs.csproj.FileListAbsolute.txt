@@ -1,0 +1,11 @@
+C:\Users\ludwi\source\repos\SignalRApp\ClassLibraryJobs\bin\Debug\net8.0\ClassLibraryJobs.deps.json
+C:\Users\ludwi\source\repos\SignalRApp\ClassLibraryJobs\bin\Debug\net8.0\ClassLibraryJobs.dll
+C:\Users\ludwi\source\repos\SignalRApp\ClassLibraryJobs\bin\Debug\net8.0\ClassLibraryJobs.pdb
+C:\Users\ludwi\source\repos\SignalRApp\ClassLibraryJobs\obj\Debug\net8.0\ClassLibraryJobs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ludwi\source\repos\SignalRApp\ClassLibraryJobs\obj\Debug\net8.0\ClassLibraryJobs.AssemblyInfoInputs.cache
+C:\Users\ludwi\source\repos\SignalRApp\ClassLibraryJobs\obj\Debug\net8.0\ClassLibraryJobs.AssemblyInfo.cs
+C:\Users\ludwi\source\repos\SignalRApp\ClassLibraryJobs\obj\Debug\net8.0\ClassLibraryJobs.csproj.CoreCompileInputs.cache
+C:\Users\ludwi\source\repos\SignalRApp\ClassLibraryJobs\obj\Debug\net8.0\ClassLibraryJobs.dll
+C:\Users\ludwi\source\repos\SignalRApp\ClassLibraryJobs\obj\Debug\net8.0\refint\ClassLibraryJobs.dll
+C:\Users\ludwi\source\repos\SignalRApp\ClassLibraryJobs\obj\Debug\net8.0\ClassLibraryJobs.pdb
+C:\Users\ludwi\source\repos\SignalRApp\ClassLibraryJobs\obj\Debug\net8.0\ref\ClassLibraryJobs.dll

@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\BlazorAppSignalR\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\BlazorAppSignalR\\obj\\Debug\\net8.0\\compressed\\z5a4dzo4sv.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\BlazorAppSignalR\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorAppSignalR.styles.css",
+      "PackagePath": "staticwebassets\\BlazorAppSignalR.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\BlazorAppSignalR\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\BlazorAppSignalR\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\BlazorAppSignalR\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\BlazorAppSignalR\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\BlazorAppSignalR\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\BlazorAppSignalR\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\ludwi\\source\\repos\\SignalRApp\\BlazorAppSignalR\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazorAppSignalR.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BlazorAppSignalR.props",
+      "PackagePath": "build\\BlazorAppSignalR.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorAppSignalR.props",
+      "PackagePath": "buildMultiTargeting\\BlazorAppSignalR.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BlazorAppSignalR.props",
+      "PackagePath": "buildTransitive\\BlazorAppSignalR.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
