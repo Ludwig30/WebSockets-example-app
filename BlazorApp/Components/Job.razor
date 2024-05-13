@@ -1,0 +1,51 @@
+﻿@inject WebSocketsService WebSocketsService
+
+<MudCard Style="width:23%;background-color:aliceblue;margin-right:1rem;margin-bottom:1rem;">
+    <MudCardHeader Style="padding:1rem;">
+        <MudText style="overflow-wrap" Typo="Typo.h6">@JobName</MudText>
+    </MudCardHeader>
+    <MudCardContent Style="padding:1rem">
+        @switch (JobProp.GetStatus())
+        {
+            case (@JobStatus.Pending):
+                <MudText>Job is pending</MudText>
+                <MudButton OnClick="RunJob" Variant="Variant.Outlined">Run job</MudButton>
+                break;
+            case (JobStatus.Running):
+                <MudText>Job in progress</MudText>
+                <MudButton OnClick="CancelJob" Variant="Variant.Outlined" Color="Color.Error">Cancel job</MudButton>
+                break;
+            case (JobStatus.Cancelled):
+                <MudText>Job is cancelled</MudText>
+                <MudButton OnClick="RunJob" Variant="Variant.Outlined">Run job</MudButton>
+                break;
+            case (JobStatus.Complete):
+                <MudText>Job complete</MudText>
+                break;
+        }
+    </MudCardContent>
+</MudCard>
+
+@code {
+    [Parameter]
+    public string JobName { get; set; }
+    [Parameter]
+    public ClassLibraryJobs.Job JobProp { get; set; }    
+
+    private async Task RunJob()
+    {
+        await WebSocketsService.StartJob(JobProp.GetId());
+    }
+
+    private async Task CancelJob()
+    {
+        await WebSocketsService.CancelJob(JobProp.GetId());
+        JobProp.SetStatus(JobStatus.Cancelled);
+        StateHasChanged();
+    }
+
+    private async Task ReceiveMessages()
+    {
+        await WebSocketsService.ReceiveMessage();
+    }
+}

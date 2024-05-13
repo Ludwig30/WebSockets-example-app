@@ -1,0 +1,13 @@
+﻿@inject JobsService JobsService
+
+<MudContainer Style="display:flex; flex-flow:row wrap; margin-bottom:1.5rem; margin-top:1.5rem;padding:0;" MaxWidth="MaxWidth.ExtraExtraLarge">
+    @foreach (var job in Jobs)
+    {
+        <Job JobProp="job" JobName=@job.GetId() />
+    }
+</MudContainer>
+
+@code {
+    [Parameter]
+    public List<ClassLibraryJobs.Job> Jobs { get; set; }  
+}
