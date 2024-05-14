@@ -65,8 +65,13 @@
             else if (message.StartsWith("JobComplete"))
             {
                 string id = message.Split(':')[1];
-                JobsService.ModifyJob(id, JobStatus.Complete);
-                StateHasChanged();
+                ClassLibraryJobs.Job? job = JobsService.GetJob(id);
+                if (job == null) continue;
+                if (job.GetStatus() != JobStatus.Cancelled)
+                {
+                    JobsService.ModifyJob(id, JobStatus.Complete);
+                    StateHasChanged();
+                }                
             }
             else if (message.StartsWith("JobCancelled"))
             {

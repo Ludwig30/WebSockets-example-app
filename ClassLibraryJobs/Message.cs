@@ -17,12 +17,7 @@ namespace ClassLibraryJobs
         {
             string json = $"{{\"Action\":\"{Action}\",\"Duration\":{Duration},\"Id\":\"{Id}\"}}";
             byte[] bytes = Encoding.UTF8.GetBytes(json);
-            bytes = bytes.Where(b => b != 0).ToArray();
-            foreach (byte b in bytes)
-            {
-                Console.Write($"{b:X2} ");
-            }
-            Console.WriteLine();
+            bytes = bytes.Where(b => b != 0).ToArray();            
             return bytes;
         }
 
