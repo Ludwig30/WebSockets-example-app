@@ -19,32 +19,43 @@ namespace API.Helpers
         public async Task HandleClient(WebSocket webSocket)
         {
             var buffer = new byte[1024 * 4];
-
+            var messageBuffer = new List<byte>();
             while (webSocket.State == WebSocketState.Open)
             {
                 var result = await webSocket.ReceiveAsync(new ArraySegment<byte>(buffer), CancellationToken.None);
-
                 if (result.MessageType == WebSocketMessageType.Text)
                 {
-                    string json = Encoding.UTF8.GetString(buffer, 0, result.Count);
-                    Message message = JsonSerializer.Deserialize<Message>(json);
+                    messageBuffer.AddRange(buffer.Take(result.Count));
 
-                    switch (message.Action)
+                    if (result.EndOfMessage)
                     {
-                        case "AddJob":
-                            var job = new Job(Guid.NewGuid().ToString(), message.Duration, JobStatus.Pending);
-                            _jobService.QueueJob(job);
-                            await webSocket.SendAsync(Encoding.UTF8.GetBytes($"JobAdded:{job.GetId()}"), result.MessageType, true, CancellationToken.None);
-                            break;
-                        case "StartJob":
-                            await StartJob(webSocket, message.Id);
-                            break;
-                        case "CancelJob":
-                            await CancelJob(webSocket, message.Id);
-                            break;
-                    }
+                        Message message = Message.Deserialize(messageBuffer.ToArray());
+
+                        switch (message.Action)
+                        {
+                            case "AddJob":
+                                var job = new Job(Guid.NewGuid().ToString(), message.Duration, JobStatus.Pending);
+                                _jobService.QueueJob(job);
+                                await webSocket.SendAsync(Encoding.UTF8.GetBytes($"JobAdded:{job.GetId()}"), result.MessageType, true, CancellationToken.None);
+                                break;
+                            case "StartJob":
+                                await StartJob(webSocket, message.Id);
+                                break;
+                            case "CancelJob":
+                                await CancelJob(webSocket, message.Id);
+                                break;
+                        }
+                        // Reset message buffer for the next message
+                        messageBuffer.Clear();
+                    }                                       
+                }
+                else if (result.MessageType == WebSocketMessageType.Close)
+                {
+                    await webSocket.CloseAsync(WebSocketCloseStatus.NormalClosure, "", CancellationToken.None);
                 }
             }
+
+            
         }
 
         private async Task StartJob(WebSocket webSocket, string id)

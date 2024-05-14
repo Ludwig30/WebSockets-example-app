@@ -1,4 +1,5 @@
 using API.Controllers;
+using API.Helpers;
 using API.Services;
 using Microsoft.AspNetCore.WebSockets;
 
@@ -12,28 +13,16 @@ namespace API
             {
                 KeepAliveInterval = TimeSpan.FromMinutes(2)
             };
-            string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
             var builder = WebApplication.CreateBuilder(args);
 
-            builder.Services.AddCors(options =>
-            {
-                options.AddPolicy(name: MyAllowSpecificOrigins,
-                                  policy =>
-                                  {
-                                      policy.WithOrigins("https://localhost:7236");
-                                      policy.AllowAnyMethod();
-                                      policy.AllowAnyHeader();
-                                      policy.AllowCredentials();
-                                  });
-            });
-
-            builder.Services.AddControllers();            
+            builder.Services.AddControllers();
             builder.Services.AddSingleton<JobService>();
+            builder.Services.AddSingleton<WebSocketHandler>();
 
             var app = builder.Build();            
 
-            app.UseCors(MyAllowSpecificOrigins);            
             app.UseWebSockets(webSocketOptions);
+            app.MapControllers();
             app.Run();
         }
     }

@@ -1,18 +1,12 @@
 ﻿using ClassLibraryJobs;
 using System.Net.WebSockets;
 using System.Text;
-using System.Text.Json;
 
 namespace BlazorApp.Services
 {
     public class WebSocketsService
     {
-        private readonly ClientWebSocket _client;
-
-        public WebSocketsService()
-        {
-            _client = new ClientWebSocket();
-        }
+        private readonly ClientWebSocket _client = new();        
 
         public async Task Connect(string url)
         {
@@ -39,15 +33,43 @@ namespace BlazorApp.Services
 
         private async Task SendMessage(Message message)
         {
-            byte[] bytes = Encoding.UTF8.GetBytes(JsonSerializer.Serialize(message));
-            await _client.SendAsync(bytes, WebSocketMessageType.Text, true, CancellationToken.None);
+            byte[] bytes = message.Serialize();
+            if (bytes.Length > 4096)
+            {
+                List<byte[]> segments = bytes.Chunk(4096).ToList();
+                for (int i = 0; i < segments.Count; i++)
+                {
+                    if (i == segments.Count - 1)
+                    {
+                        await _client.SendAsync(new ArraySegment<byte>(segments[i]), WebSocketMessageType.Text, true, CancellationToken.None);
+                    }
+                    else
+                    {
+                        await _client.SendAsync(new ArraySegment<byte>(segments[i]), WebSocketMessageType.Text, false, CancellationToken.None);
+                    }
+                }
+            }
+            else
+            {
+                await _client.SendAsync(new ArraySegment<byte>(bytes), WebSocketMessageType.Text, true, CancellationToken.None);
+            }
         }
 
         public async Task<string> ReceiveMessage()
         {
             byte[] buffer = new byte[1024 * 4];
             var result = await _client.ReceiveAsync(buffer, CancellationToken.None);
-            return Encoding.UTF8.GetString(buffer);
+            byte[] data = new byte[result.Count];
+            Array.Copy(buffer, data, result.Count);
+            return Encoding.UTF8.GetString(data);
         }
+
+        public async Task Disconnect()
+        {
+            if (_client.State == WebSocketState.Open)
+            {
+                await _client.CloseAsync(WebSocketCloseStatus.NormalClosure, "", CancellationToken.None);
+            }
+        }        
     }
 }

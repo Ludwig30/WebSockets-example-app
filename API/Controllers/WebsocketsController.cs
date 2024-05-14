@@ -18,7 +18,7 @@ namespace API.Controllers
             if (HttpContext.WebSockets.IsWebSocketRequest)
             {
                 using var websocket = await HttpContext.WebSockets.AcceptWebSocketAsync();
-                _webSocketHandler.HandleClient(websocket);
+                await _webSocketHandler.HandleClient(websocket);
             } else
             {
                 HttpContext.Response.StatusCode = StatusCodes.Status400BadRequest;

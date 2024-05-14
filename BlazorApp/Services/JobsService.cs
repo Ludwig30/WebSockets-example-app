@@ -1,4 +1,5 @@
 ﻿using ClassLibraryJobs;
+using System.Text;
 
 namespace BlazorApp.Services
 {
@@ -10,7 +11,8 @@ namespace BlazorApp.Services
         public List<Job> GetJobs() { return _jobs; }
         public void ModifyJob(string id, JobStatus status)
         {
-            int i = _jobs.FindIndex(j => j.GetId() == id);
+            int i = _jobs.FindIndex(j => String.Equals(j.GetId(), id));
+            Console.WriteLine(i);
             if (i != -1)
             {
                 _jobs[i].SetStatus(status);                

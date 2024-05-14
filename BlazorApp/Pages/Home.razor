@@ -11,15 +11,15 @@
 
 @code {
     private int _duration = 1000;
-    private List<ClassLibraryJobs.Job> _jobs = new();
+    private List<ClassLibraryJobs.Job> _jobs = [];
 
     protected override async Task OnInitializedAsync()
     {
+        _jobs = JobsService.GetJobs();
         try
         {
-            await WebSocketsService.Connect("ws://localhost:7034/ws");
+            await WebSocketsService.Connect("wss://localhost:7034/ws");
             await Task.Run(ReceiveMessages);
-            Console.WriteLine("WebSocket connected.");
         }
         catch (Exception ex)
         {
@@ -51,8 +51,9 @@
             string message = await WebSocketsService.ReceiveMessage();
             if (message.StartsWith("JobAdded"))
             {
-                string id = message.Split(':')[1];
-                JobsService.AddJob(new ClassLibraryJobs.Job(id, _duration, JobStatus.Pending));
+                string id = message.Split(':')[1];               
+                ClassLibraryJobs.Job job = new ClassLibraryJobs.Job(id, _duration, JobStatus.Pending);
+                JobsService.AddJob(job);
                 StateHasChanged();
             }
             else if (message.StartsWith("JobStarted"))
@@ -61,7 +62,7 @@
                 JobsService.ModifyJob(id, JobStatus.Running);
                 StateHasChanged();
             }
-            else if (message.StartsWith("JobCompleted"))
+            else if (message.StartsWith("JobComplete"))
             {
                 string id = message.Split(':')[1];
                 JobsService.ModifyJob(id, JobStatus.Complete);

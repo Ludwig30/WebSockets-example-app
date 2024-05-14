@@ -20,3 +20,15 @@ C:\Users\lgde\source\repos\SignalR-example-app\ClassLibraryJobs\obj\Debug\net8.0
 C:\Users\lgde\source\repos\SignalR-example-app\ClassLibraryJobs\obj\Debug\net8.0\refint\ClassLibraryJobs.dll
 C:\Users\lgde\source\repos\SignalR-example-app\ClassLibraryJobs\obj\Debug\net8.0\ClassLibraryJobs.pdb
 C:\Users\lgde\source\repos\SignalR-example-app\ClassLibraryJobs\obj\Debug\net8.0\ref\ClassLibraryJobs.dll
+C:\Users\lgde\source\repos\WebSockets-example-app\ClassLibraryJobs\bin\Debug\net8.0\ClassLibraryJobs.deps.json
+C:\Users\lgde\source\repos\WebSockets-example-app\ClassLibraryJobs\bin\Debug\net8.0\ClassLibraryJobs.dll
+C:\Users\lgde\source\repos\WebSockets-example-app\ClassLibraryJobs\bin\Debug\net8.0\ClassLibraryJobs.pdb
+C:\Users\lgde\source\repos\WebSockets-example-app\ClassLibraryJobs\obj\Debug\net8.0\ClassLibraryJobs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lgde\source\repos\WebSockets-example-app\ClassLibraryJobs\obj\Debug\net8.0\ClassLibraryJobs.AssemblyInfoInputs.cache
+C:\Users\lgde\source\repos\WebSockets-example-app\ClassLibraryJobs\obj\Debug\net8.0\ClassLibraryJobs.AssemblyInfo.cs
+C:\Users\lgde\source\repos\WebSockets-example-app\ClassLibraryJobs\obj\Debug\net8.0\ClassLibraryJobs.csproj.CoreCompileInputs.cache
+C:\Users\lgde\source\repos\WebSockets-example-app\ClassLibraryJobs\obj\Debug\net8.0\ClassLibraryJobs.sourcelink.json
+C:\Users\lgde\source\repos\WebSockets-example-app\ClassLibraryJobs\obj\Debug\net8.0\ClassLibraryJobs.dll
+C:\Users\lgde\source\repos\WebSockets-example-app\ClassLibraryJobs\obj\Debug\net8.0\refint\ClassLibraryJobs.dll
+C:\Users\lgde\source\repos\WebSockets-example-app\ClassLibraryJobs\obj\Debug\net8.0\ClassLibraryJobs.pdb
+C:\Users\lgde\source\repos\WebSockets-example-app\ClassLibraryJobs\obj\Debug\net8.0\ref\ClassLibraryJobs.dll
